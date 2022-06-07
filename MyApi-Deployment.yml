@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: myapi
-        image: myapi:latest
+        image: acr20220607.azurecr.io/myapirepo:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
